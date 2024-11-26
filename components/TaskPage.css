@@ -1,0 +1,54 @@
+/* TaskPage.css */
+.task-page-container {
+  display: flex;
+  gap: 2rem;
+}
+
+.task-page-left, .task-page-right {
+  flex: 1;
+}
+
+.task-card {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+}
+
+.task-filters {
+  margin-top: 1rem;
+}
+
+.task-filters button {
+  padding: 0.6rem 1.2rem;
+  margin-right: 1rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.task-filters button:hover {
+  background-color: #0056b3;
+}
+
+.task-search input {
+  padding: 0.8rem;
+  font-size: 1rem;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.message-success {
+  background-color: #28a745;
+  color: white;
+  padding: 1rem;
+  border-radius: 4px;
+  margin-top: 1rem;
+  text-align: center;
+}
